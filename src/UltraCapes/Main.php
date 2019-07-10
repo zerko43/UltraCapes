@@ -229,7 +229,7 @@ class Main extends PluginBase implements Listener {
                 $player->sendMessage("§f[§bServer§f] §aEnergy Cape activated!");
                 return true;
                          }
-                        case "feuer":
+                        case "fire":
                             if (!$player->hasPermission("feuer.cape")) {
                                 $player->sendMessage($this->noperm);
                                 return true;
@@ -255,7 +255,7 @@ class Main extends PluginBase implements Listener {
                 $player->sendMessage("§f[§bServer§f] §aRed Creeper Cape activated!");
                             return true;
                             }
-                            case "schildkroete":
+                            case "turtle":
                             if (!$player->hasPermission("turtle.cape")) {
                                 $player->sendMessage($this->noperm);
                                 return true;
@@ -274,7 +274,7 @@ class Main extends PluginBase implements Listener {
                                 return true;
                             }else{
         $oldSkin = $player->getSkin();
-        $capeData = $this->createCape("pickaxe");
+        $capeData = $this->createCape("Pickaxe");
         $setCape = new Skin($oldSkin->getSkinId(), $oldSkin->getSkinData(), $capeData, $oldSkin->getGeometryName(), $oldSkin->getGeometryData());
         $player->setSkin($setCape);
                 $player->sendSkin();
