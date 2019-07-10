@@ -278,7 +278,7 @@ class Main extends PluginBase implements Listener {
         $setCape = new Skin($oldSkin->getSkinId(), $oldSkin->getSkinData(), $capeData, $oldSkin->getGeometryName(), $oldSkin->getGeometryData());
         $player->setSkin($setCape);
                 $player->sendSkin();
-                $player->sendMessage("§f[§bServer§f] §aPicka Cape activated!");
+                $player->sendMessage("§f[§bServer§f] §aPickaxe Cape activated!");
                             return true;
                             }
                         case "firework":
