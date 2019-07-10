@@ -7,7 +7,7 @@ main: UltraCapes\Main
 api: ["3.0.0", "4.0.0"]
 commands:
   cape:
-    description: Wähle ein Cape!
+    description: Choose a Cape!
     usage: /cape
 
 permissions:
