@@ -1,14 +1,12 @@
 ---
 # Don't Change anything here!
 capes:
-- Blauer_Creeper
+- Blue_Creeper
 - Enderman
-- Energie
-- Feuer
-- Roter_Creeper
-- Schildkroete
-- Spitzhacke
-- Universe
-- Team
-
+- Energy
+- Fire
+- Red_Creeper
+- Turtle
+- Pickaxe
+- Firework
 ...
