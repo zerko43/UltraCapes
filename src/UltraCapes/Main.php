@@ -217,7 +217,7 @@ class Main extends PluginBase implements Listener {
                 return true;
                             }
                         case "energy":
-                            if (!$player->hasPermission("energie.cape")) {
+                            if (!$player->hasPermission("energy.cape")) {
                                 $player->sendMessage($this->noperm);
                                 return true;
                          } else {
@@ -230,7 +230,7 @@ class Main extends PluginBase implements Listener {
                 return true;
                          }
                         case "fire":
-                            if (!$player->hasPermission("feuer.cape")) {
+                            if (!$player->hasPermission("fire.cape")) {
                                 $player->sendMessage($this->noperm);
                                 return true;
                             }else{
