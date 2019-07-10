@@ -186,9 +186,8 @@ class Main extends PluginBase implements Listener {
                             return true;
                             break;
                         case "remove":
-                        $player->setSkin($this->skin[$player->getName()]);
-				$player->sendSkin();
-                            $player->sendMessage("§f[§bServer§f] §aSkin resetted");
+		unset($this->skin[$player->getName()]);
+                            $player->sendMessage("§f[§bServer§f] §aSkin resetted!");
                             return true;
                         case "blue_creeper":
                             if (!$player->hasPermission("blue_creeper.cape")) {
